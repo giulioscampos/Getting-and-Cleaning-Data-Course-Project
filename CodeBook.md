@@ -5,19 +5,23 @@ In order to do so, it is mandatory to understand every aspect of the Data we are
 
 Worth noting that, although we describe the performed transformations/works done to clean up the data, we do it here as well. 
 
-## Understanding the Data
+## 1. Understanding the Data
 
 In any project or undertaking that involves data analysis, it is fundamental the understanding of the data collected/involved.
-As mentioned at the `README.md`file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (DB nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
+As mentioned at the `README.md` file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (folder nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
 
-### The Data Set
-
-The Data Set consistis of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by 28 `TXT files` as listed below. In order to get this files list, you must first "open" the ZIP file. You can do this through the R commend *UNZIP* `unzip(zipfile,exdir=".")`.
+### 1.1 General Information
 
 
 
+### 1.2 The Downloaded Data
+
+The Downloaded Data consists of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by a Data Set of twenty-eight (28) `TXT files` as listed below. In order to get this file list, you must first "open" the ZIP file. You can do this through the R command *UNZIP* `unzip(zipfile,exdir=".")`.
+
+### 1.3. The Data Set
 
 
-## The Variables
 
-## Work performed to clean up the data
+## 2. The Variables
+
+## 3. Work performed to clean up the data
