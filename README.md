@@ -26,9 +26,13 @@ R that does the following.
 
 ## The Project's Data
 
-For this Project we will use the `UC Irvine Machine Learning Repository` Archives to download the requested Data. This is the link for the data we need:
+For this Project we will use the `University of California Irvine Machine Learning Repository` Archives to download the requested Data. This is the link for the data we need:
 
-<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+`<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>`
+
+A full description is available at the site where the data was obtained:
+
+<http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
 
 
