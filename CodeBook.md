@@ -8,7 +8,7 @@ Worth noting that, although we describe the performed transformations/works done
 ## Understanding the Data
 
 In any project or undertaking that involves data analysis, it is fundamental the understanding of the data collected/involved.
-As mentioned at the `README.md`file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (DB nº 00240)
+As mentioned at the `README.md`file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (DB nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
 
 
 
