@@ -72,7 +72,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
  DESCRIPTION                  | VALUE 
 ------------------------------| --------------------------
 Data Set Characteristics:     | Multivariate, Time-Series
-Number of Instances:          | 10299
+Number of Instances:          | 10,299
 Number of Attributes:         | 561
 Attribute Characteristics:    | N/A
 Associated Tasks:             | Classification, Clustering 
@@ -80,7 +80,13 @@ Missing Values?:              | N/A
 
 #### 1.3.3 Breaking down the experience (and, consequently, the Data)
 
-As we have seen on the item 1.3.1 above, the experience captured 
+As we have seen on the item 1.3.1 above, the experience captured 3-axial linear acceleration (XYZ, using the accelerometer) and 3-axial angular velocity (XYZ, using the gyroscopethe) for each of the six activities (1- WALKING, 2- WALKING_UPSTAIRS, 3- WALKING_DOWNSTAIRS, 4- SITTING, 5- STANDING, 6- LAYING) each of the 30 volunteers/person did.
+
+It is also informed that the sensor acceleration signal was separated into body acceleration and gravity.
+
+Number [2] file above (`features_info.txt`) reports that the body linear acceleration and angular velocity were derived in time to obtain Jerk signals and that the magnitude of these three-dimensional signals were calculated (using the Euclidean norm).
+
+
 
 ## 2. What files will we use? 
 
