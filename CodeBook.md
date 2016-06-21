@@ -10,7 +10,8 @@ Worth noting that, although we describe the performed transformations/works done
 In any project or undertaking that involves data analysis, it is fundamental the understanding of the data collected/involved.
 As mentioned at the `README.md` file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (folder nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
 
-### 1.1 General Information
+      ### 1.1 General Information
+      
 
 The data is regarding an experience on Human Activity Recognition Using Smartphones.
 This experience was performed by Jorge L. Reyes-Ortiz(a,b), Davide Anguita(a), Alessandro Ghio(a), Luca Oneto(a) and Xavier Parra(b)
@@ -35,8 +36,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
       
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-1. cc
-      2. 
+
 
 
 ## 2. The Variables
