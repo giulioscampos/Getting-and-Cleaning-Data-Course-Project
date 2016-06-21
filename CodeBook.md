@@ -12,7 +12,9 @@ As mentioned at the `README.md`file, our data come from `UCI Machine Learning Re
 
 ### The Data Set
 
-The Data Set consistis of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by 28 `TXT files` as listed below. In order to get this files list, you must first "open" the ZIP file. You can do this through the R commend `unzip()`(unzip(zipfile,exdir=".")) 
+The Data Set consistis of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by 28 `TXT files` as listed below. In order to get this files list, you must first "open" the ZIP file. You can do this through the R commend *UNZIP* `unzip(zipfile,exdir=".")`.
+
+
 
 
 
