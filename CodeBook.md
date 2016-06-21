@@ -90,7 +90,14 @@ It also reports that a Fast Fourier Transform (FFT) was applied to some of these
 
 I have elaborated `figure 1` below to better illustrate how all these signals are linked together and how they have produced all the variables mentioned in item 3 (*The Variables*) below.
 
+Noteworthy on figure 1 is that the signals marked with number three are 3-dimensional  while those marked with number one are coming from the calculated magnitude (an one-dimensional number).
+
+As we can see, we have thirty-three measures for each activity a volunteer took.
+
+`FIGURE 1`
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Experience%20Signals.png)
+
+Going furhter on the data analyses, 
 
 
 ## 2. What files will we use? 
