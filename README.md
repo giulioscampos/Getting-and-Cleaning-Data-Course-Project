@@ -34,5 +34,5 @@ A full description is available at the site where the data was obtained:
 
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
-*Prat of the Code Book file (`CodeBook.md`) is dedicated to Undestand the Project's Data* 
+*Part of the Code Book file (`CodeBook.md`) is dedicated to understand the Project's Data* 
 
