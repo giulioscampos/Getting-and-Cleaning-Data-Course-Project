@@ -26,5 +26,9 @@ R that does the following.
 
 ## The Project's Data
 
-We will use data fron the `UC Irvine Machine Learning Repository`
+For this Project we will use the `UC Irvine Machine Learning Repository` Archives to download the requested Data. This is the link for the data we need:
+
+<https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
+
+
 
