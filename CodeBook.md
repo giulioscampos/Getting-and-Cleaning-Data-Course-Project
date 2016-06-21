@@ -3,12 +3,13 @@ The purpose of this file is to describe the variables, the data, and any transfo
 
 In order to do so, it is mandatory understand every aspect of the Data being analysed, as shown below at *"Understanding the Data"* part. 
 
-Worth noting that, although the performed transformations/works to clean up the data are described on the `run_analysis.R` file, they are shown here as well. 
+Worth noting that, although the performed transformations/works to clean up the data are described on the `run_analysis.R` file, they are shown in this file as well. 
 
 ## 1. Understanding the Data
 
 In any project or undertaking that involves data analysis, it is fundamental the detailed understanding of the data collected/involved.
-As mentioned at the `README.md` file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (folder nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
+
+As mentioned at the `README.md` file, this data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (folder nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
 
 ### 1.1 General Information
       
@@ -61,7 +62,7 @@ The Downloaded Data consists of a ZIP file named *UCI HAR Dataset.zip*, and its 
 ### 1.3. The Data Set
 
 #### 1.3.1 Information
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, captured 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
       
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
@@ -77,7 +78,7 @@ Missing Values?:              | N/A
 
 #### 1.3.3 Breaking down the experience (and, consequently, the Data)
 
-As we have seen on the 1.3.1 item above, the experience 
+As we have seen on the item 1.3.1 above, the experience captured 
 
 ## 2. What files will we use? 
 
