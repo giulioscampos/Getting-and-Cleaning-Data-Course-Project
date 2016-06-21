@@ -28,7 +28,7 @@ activityrecognition '@' smartlab.ws
 
 The Downloaded Data consists of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by a Data Set of twenty-eight (28) `TXT files` as listed below. In order to get this file list, you must first "open" the ZIP file. You can do this through the `unzip()` R command (type `?unzip` on your RStudio Console to see more).
 
-*File List*
+*File List*  
       ##  [1] "activity_labels.txt"                         
       ##  [2] "features_info.txt"                           
       ##  [3] "features.txt"                                
@@ -45,18 +45,18 @@ The Downloaded Data consists of a ZIP file named *UCI HAR Dataset.zip*, and its 
       ## [14] "test/subject_test.txt"                       
       ## [15] "test/X_test.txt"                             
       ## [16] "test/y_test.txt"                             
-      ## [17] "train/Inertial Signals/body_acc_x_train.txt" 
-      ## [18] "train/Inertial Signals/body_acc_y_train.txt" 
-      ## [19] "train/Inertial Signals/body_acc_z_train.txt" 
-      ## [20] "train/Inertial Signals/body_gyro_x_train.txt"
-      ## [21] "train/Inertial Signals/body_gyro_y_train.txt"
-      ## [22] "train/Inertial Signals/body_gyro_z_train.txt"
-      ## [23] "train/Inertial Signals/total_acc_x_train.txt"
-      ## [24] "train/Inertial Signals/total_acc_y_train.txt"
-      ## [25] "train/Inertial Signals/total_acc_z_train.txt"
+      ## [17] "train/Inertial Signals/body_acc_x_train.txt"  
+      ## [18] "train/Inertial Signals/body_acc_y_train.txt"  
+      ## [19] "train/Inertial Signals/body_acc_z_train.txt"  
+      ## [20] "train/Inertial Signals/body_gyro_x_train.txt"  
+      ## [21] "train/Inertial Signals/body_gyro_y_train.txt"  
+      ## [22] "train/Inertial Signals/body_gyro_z_train.txt"  
+      ## [23] "train/Inertial Signals/total_acc_x_train.txt"  
+      ## [24] "train/Inertial Signals/total_acc_y_train.txt"  
+      ## [25] "train/Inertial Signals/total_acc_z_train.txt"  
       ## [26] "train/subject_train.txt"                     
       ## [27] "train/X_train.txt"                           
-      ## [28] "train/y_train.txt"
+      ## [28] "train/y_train.txt"  
 
 ### 1.3. The Data Set
 
