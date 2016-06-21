@@ -16,11 +16,9 @@ The data is regarding an experience on Human Activity Recognition Using Smartpho
 This experience was performed by Jorge L. Reyes-Ortiz(a,b), Davide Anguita(a), Alessandro Ghio(a), Luca Oneto(a) and Xavier Parra(b)
 
 1 - Smartlab - Non-Linear Complex Systems Laboratory
-
 DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy. 
 
 2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
-
 Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
 activityrecognition '@' smartlab.ws 
 
