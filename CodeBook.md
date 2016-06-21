@@ -13,7 +13,7 @@ As mentioned at the `README.md` file, this data come from `UCI Machine Learning 
 
 ### 1.1 General Information
       
-The data is regarding an experience on Human Activity Recognition Using Smartphones.
+The data refres to an experience on Human Activity Recognition Using Smartphones.
 This experience was performed by Jorge L. Reyes-Ortiz(a,b), Davide Anguita(a), Alessandro Ghio(a), Luca Oneto(a) and Xavier Parra(b)
 
 a - Smartlab - Non-Linear Complex Systems Laboratory  
@@ -97,8 +97,27 @@ As we can see, we have thirty-three measures for each activity a volunteer took.
 `FIGURE 1`
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Experience%20Signals.png)
 
-Going furhter on the data analyses, 
+Going foward on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are:
 
+| #  | VARIABLE        | DESCRIPTION
+|:--:|-----------------|----------------------------------------------------------------------------- 
+| 1  | mean():         | Mean value
+| 2  | std():          | Standard deviation
+| 3  | mad():          | Median absolute deviation 
+| 4  | max():          | Largest value in array
+| 5  | min():          | Smallest value in array
+| 6  | sma():          | Signal magnitude area
+| 7  | energy():       | Energy measure. Sum of the squares divided by the number of values. 
+| 8  | iqr():          | Interquartile range 
+| 9  | entropy():      | Signal entropy
+| 10 | arCoeff():      | Autorregresion coefficients with Burg order equal to 4
+| 11 | correlation():  | correlation coefficient between two signals
+| 12 | maxInds():      | index of the frequency component with largest magnitude
+| 13 | meanFreq():     | Weighted average of the frequency components to obtain a mean frequency
+| 14 | skewness():     | skewness of the frequency domain signal 
+| 15 | kurtosis():     | kurtosis of the frequency domain signal 
+| 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window
+| 17 | angle():        | Angle between to vectors.
 
 ## 2. What files will we use? 
 
