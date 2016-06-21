@@ -3,9 +3,14 @@ The purpose of this file is to describe the variables, the data, and any transfo
 
 In order to do so, it is mandatory to understand every aspect of the Data we are analysing, as shown below at *"Understanding the Data"* part. 
 
-Another important Although teh 
+Worth noting that, although we describe the performed transformations/works done to clean up the data, we do it here as well. 
 
 ## Understanding the Data
+
+In any project or undertaking that involves data analysis, it is fundamental the understanding of the data collected/involved.
+As mentioned at the `README.md`file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (DB nº 00240)
+
+
 
 ## The Variables
 
