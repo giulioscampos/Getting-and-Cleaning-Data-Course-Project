@@ -24,6 +24,6 @@ R that does the following.
 4. *The README that explains the analysis files is clear and understandable.*
 5. *The work submitted for this project is the work of the student who submitted it*
 
-```{r}
+```{r echo=FALSE}
 paste(Giulio)
 ```
