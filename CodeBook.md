@@ -1,9 +1,9 @@
 # The Code Book
-The purpose of this file is to describe the variables, the data, and any transformations or work that you performed to clean up the data in reference.
+The purpose of this file is to describe the variables, the data, and any transformations or work that were performed to clean up the data in reference.
 
-In order to do so, it is mandatory to understand every aspect of the Data we are analysing, as shown below at *"Understanding the Data"* part. 
+In order to do so, it is mandatory understand every aspect of the Data being analysed, as shown below at *"Understanding the Data"* part. 
 
-Worth noting that, although we describe the performed transformations/works done to clean up the data, we do it here as well. 
+Worth noting that, although the performed transformations/works to clean up the data are described on the `run_analysis.R` file, they are shown here as well. 
 
 ## 1. Understanding the Data
 
@@ -28,6 +28,7 @@ activityrecognition '@' smartlab.ws
 
 The Downloaded Data consists of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by a Data Set of twenty-eight (28) `TXT files` as listed below. In order to get this file list, you must first "open" the ZIP file. You can do this through the `unzip()` R command (type `?unzip` on your RStudio Console to see more).
 
+*File List*
       ##  [1] "activity_labels.txt"                         
       ##  [2] "features_info.txt"                           
       ##  [3] "features.txt"                                
@@ -74,10 +75,12 @@ Attribute Characteristics:    | N/A
 Associated Tasks:             | Classification, Clustering 
 Missing Values?:              | N/A
 
+#### 1.3.3 Breaking down the experience (and, consequently, the Data)
 
+As we have seen on the 1.3.1 item above, the experience 
 
+## 2. What files will we use? 
 
+## 3. The Variables
 
-## 2. The Variables
-
-## 3. Work performed to clean up the data
+## 4. Work performed to clean up the data
