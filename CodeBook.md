@@ -86,6 +86,11 @@ It is also informed that the sensor acceleration signal was separated into body 
 
 Number [2] file above (`features_info.txt`) reports that the body linear acceleration and angular velocity were derived in time to obtain Jerk signals and that the magnitude of these three-dimensional signals were calculated (using the Euclidean norm).
 
+It also reports that a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals.
+
+I have elaborated `figure 1` below to better illustrate how all these signals are linked together and how they have produced all the variables mentioned in item 3 (*The Variables*) below.
+
+![Experience Signals] (C:\Giulio\Data Science\Johns Hopkins\Curso 3 - Getting and Cleaning data\Week 4\Assigment\Experience Signals.png)
 
 
 ## 2. What files will we use? 
