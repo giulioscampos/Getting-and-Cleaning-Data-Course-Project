@@ -10,6 +10,10 @@ Worth noting that, although we describe the performed transformations/works done
 In any project or undertaking that involves data analysis, it is fundamental the understanding of the data collected/involved.
 As mentioned at the `README.md`file, our data come from `UCI Machine Learning Repository Archives`, more specifically from the Databases Directory (DB nº 00240 - <http://archive.ics.uci.edu/ml/machine-learning-databases/00240/>).
 
+### The Data Set
+
+The Data Set consistis of a ZIP file named *UCI HAR Dataset.zip*, and its content is composed by 28 `TXT files` as listed below. In order to get this files list, you must first "open" the ZIP file. You can do this through the R commend `unzip()`(unzip(zipfile,exdir=".")) 
+
 
 
 ## The Variables
