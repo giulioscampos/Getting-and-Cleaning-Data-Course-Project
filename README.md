@@ -7,8 +7,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
-You should create one R script called ```{r}
-run_analysis```.
+You should create one R script called ```run_analysis```.
 R that does the following. 
 
 1. Merges the training and the test sets to create one data set.
