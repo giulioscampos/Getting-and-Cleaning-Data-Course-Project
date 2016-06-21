@@ -90,7 +90,7 @@ It also reports that a Fast Fourier Transform (FFT) was applied to some of these
 
 I have elaborated `figure 1` below to better illustrate how all these signals are linked together and how they have produced all the variables mentioned in item 3 (*The Variables*) below.
 
-![Experience Signals] (C:\Giulio\Data Science\Johns Hopkins\Curso 3 - Getting and Cleaning data\Week 4\Assigment\Experience Signals.png)
+![Experience Signals] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Experience%20Signals.png)
 
 
 ## 2. What files will we use? 
