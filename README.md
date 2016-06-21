@@ -24,5 +24,7 @@ R that does the following.
 4. *The README that explains the analysis files is clear and understandable.*
 5. *The work submitted for this project is the work of the student who submitted it*
 
-<span style="color:red">color</span> word
+## The Project's Data
+
+We will use data fron the `UC Irvine Machine Learning Repository`
 
