@@ -97,7 +97,7 @@ As we can see, we have thirty-three measures for each activity a volunteer took.
 `FIGURE 1`
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Experience%20Signals.png)
 
-Going foward on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are:
+Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are:
 
 | #  | VARIABLE        | DESCRIPTION
 |:--:|-----------------|----------------------------------------------------------------------------- 
@@ -119,7 +119,17 @@ Going foward on the Data analyses, `features_info.txt` reveals that `'XYZ'` is u
 | 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window
 | 17 | angle():        | Angle between to vectors.
 
-## 2. What files will we use? 
+With all these information it is possible now determinate how many VARIABLES are expected. For each signal they have calculated 17 variables. As a result we have `33` x `17` = `561` expected variables in our Data Set.
+
+If we take a closer look at the *General Characteristics* (1.3.2 item above), we can see that this number (561) matches with the Number of Attributes. Thus we can assume 561 columns in a Data Frame.
+
+It is important to remember that *the obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data*. Again, at the *General Characteristics* we know that there has been 10,299 Number of Instances, meaning that there was 10,299 observations and, therefore, we can assume the same number of rows for the entire Data Set. For the Training Data we can expect approximately 7,210 rows whereas for teh Test Data approximately 3,090.
+
+Reading number [15] file `"test/X_test.txt"` (through `read.table()` R command) and than looking at its properties, we find out....
+
+Analogously, as we do the same procedure on number [27] file  `"train/X_train.txt"`, we will see...
+
+## 2. What files will we use to write our R script `run_analysis.R`? 
 
 ## 3. The Variables
 
