@@ -132,7 +132,14 @@ Analogously, as we do the same procedure on number [27] file `"train/X_train.txt
 
 By applying `read.table()` R command on the files listed below we get:
 
-
+| #  | FILE                            | PROPRIETIES                   | OBS
+|:--:|---------------------------------|-------------------------------|--------------------------------------------- 
+| 1  | [1] "activity_labels.txt"       | 
+| 2  | [3] "features.txt"              | 
+| 3  | [14] "test/subject_test.txt"    | 
+| 4  | [16] "test/y_test.txt"          | 
+| 5  | [26] "train/subject_train.txt"  | 
+| 6  | [28] "train/y_train.txt"        | 
 
 ## 2. What files will we use to write our R script `run_analysis.R`? 
 
