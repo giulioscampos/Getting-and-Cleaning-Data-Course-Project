@@ -134,7 +134,7 @@ By applying `read.table()` R command on the files listed below we get:
 
 | #  | FILE                            | PROPRIETIES                       | OBS
 |:--:|---------------------------------|-----------------------------------|--------------------------------------------- 
-| 1  | [1] "activity_labels.txt"       | data.frame 6 obs. 2 variables     | V1: int 1 to 6 (for each activity) and V2: factor w/ 6 levels
+| 1  | [1] "activity_labels.txt"       | data.frame 6 obs. 2 variables     | V1: int 1 to 6 (for each activity) and V2: factor w/ 6 levels (regarding all activities)
 | 2  | [3] "features.txt"              | 
 | 3  | [14] "test/subject_test.txt"    | 
 | 4  | [16] "test/y_test.txt"          | 
