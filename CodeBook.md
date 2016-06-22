@@ -126,15 +126,15 @@ If we take a closer look at the *General Characteristics* (1.3.2 item above), we
 
 It is important to remember that *the obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data*. Again, lokking at the *General Characteristics* we know there has been 10,299 Number of Instances, meaning there was 10,299 observations and, therefore, it is possible to assume the same number of rows for the entire Data Set. For the Training Data we can expect approximately 7,210 rows whereas for teh Test Data approximately 3,090.
 
-Reading number [15] file `"test/X_test.txt"` (through `read.table()` R command) and looking at its properties (through `read.table()` R command), we find out a Data Frame object with 561 variables (as expected) and 2,947 observations (rows), representing 28,61% of total rows (closer to 30%).
+Reading number [15] file `"test/X_test.txt"` (through `read.table()` R command) and looking at its properties (through `read.table()` R command), we find out a Data Frame object with 561 variables (as expected) and 2,947 observations (rows), representing 28,61% of total rows (close to 30%).
 
-Analogously, as we do the same procedure on number [27] file `"train/X_train.txt"`, we will see a Data Frame object with 561 variables and 7,352 observations (rows), representing 71,39% of total rows (closer to 70%).
+Analogously, as we do the same procedure on number [27] file `"train/X_train.txt"`, we will see a Data Frame object with 561 variables and 7,352 observations (rows), representing 71,39% of total rows (close to 70%).
 
 By applying `read.table()` R command on the files listed below we get:
 
-| #  | FILE                            | PROPRIETIES                   | OBS
-|:--:|---------------------------------|-------------------------------|--------------------------------------------- 
-| 1  | [1] "activity_labels.txt"       | 
+| #  | FILE                            | PROPRIETIES                       | OBS
+|:--:|---------------------------------|-----------------------------------|--------------------------------------------- 
+| 1  | [1] "activity_labels.txt"       | data.frame 6 obs. 2 variables     | V1: int 1 to 6 (for each activity) and V2: factor w/ 6 levels
 | 2  | [3] "features.txt"              | 
 | 3  | [14] "test/subject_test.txt"    | 
 | 4  | [16] "test/y_test.txt"          | 
