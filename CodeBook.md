@@ -121,13 +121,17 @@ Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is 
 
 With all these information it is possible now determinate how many VARIABLES are expected. For each signal they have calculated 17 variables. As a result we have `33` x `17` = `561` expected variables in our Data Set.
 
-If we take a closer look at the *General Characteristics* (1.3.2 item above), we can see that this number (561) matches with the Number of Attributes. Thus we can assume 561 columns in a Data Frame.
+If we take a closer look at the *General Characteristics* (1.3.2 item above), we can see this number (561) matches with the Number of Attributes. Thus we can assume 561 columns in a Data Frame.
 
-It is important to remember that *the obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data*. Again, at the *General Characteristics* we know that there has been 10,299 Number of Instances, meaning that there was 10,299 observations and, therefore, we can assume the same number of rows for the entire Data Set. For the Training Data we can expect approximately 7,210 rows whereas for teh Test Data approximately 3,090.
+It is important to remember that *the obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data*. Again, lokking at the *General Characteristics* we know there has been 10,299 Number of Instances, meaning there was 10,299 observations and, therefore, it is possible to assume the same number of rows for the entire Data Set. For the Training Data we can expect approximately 7,210 rows whereas for teh Test Data approximately 3,090.
 
-Reading number [15] file `"test/X_test.txt"` (through `read.table()` R command) and than looking at its properties, we find out....
+Reading number [15] file `"test/X_test.txt"` (through `read.table()` R command) and looking at its properties (through `read.table()` R command), we find out a Data Frame object with 561 variables (as expected) and 2,947 observations (rows), representing 28,61% of total rows (closer to 30%).
 
-Analogously, as we do the same procedure on number [27] file  `"train/X_train.txt"`, we will see...
+Analogously, as we do the same procedure on number [27] file `"train/X_train.txt"`, we will see a Data Frame object with 561 variables and 7,352 observations (rows), representing 71,39% of total rows (closer to 70%).
+
+By applying `read.table()` R command on the files listed below we get:
+
+
 
 ## 2. What files will we use to write our R script `run_analysis.R`? 
 
