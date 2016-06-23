@@ -163,7 +163,9 @@ Taking into account all that has been seen so far, the files that will be utiliz
 
 In order to build the Data Project it is crucial to understand how all this files are connected. David Hood (2014) posted on forum (`Community TA`) a digram, represented on `Figure 2`below, linkings all files for building our Data Set.
 
+`FIGURE 2`
 
+![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Diagram.png)
 
 For this project we are not interested in the Inertial Signals and, hence, we won't be using files number [5] to [13] and [17] to [25]. 
 
