@@ -161,7 +161,7 @@ Taking into account all that has been seen so far, the files that will be utiliz
       + [27] "train/X_train.txt"
       + [28] "train/y_train.txt"
 
-In order to build the Data Project it is crucial to understand how all this files are connected. David Hood (2014) posted on forum (`Community TA`) a digram, represented on `Figure 2`below, linkings all files for building our Data Set.
+In order to build the Data Project it is crucial to understand how all this files are connected. David Hood (2014) posted on forum (`Community TA`) a digram, represented on `Figure 2` below, linking all files for building our Data Set.
 
 `FIGURE 2`
 
@@ -171,6 +171,10 @@ For this project we are not interested in the Inertial Signals and, hence, we wo
 
 ## 3. The Variables
 
+By merging X_train and X_test files, we come up with a data set composed by one data frame of `561` Variables and 10,299 rows. Beside those variables, we will have two more coming from de Subject and Activities related files, resulting in a `563`total variables.
 
+To better illustrate how this `561`variables were defined, I developed the followig table (shown in `Figue 3`), linking all the Signals from Picture 1 aforementioned and set of 17 calculated variables.
+
+![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Figure 3.png)
 
 ## 4. Work performed to clean up the data
