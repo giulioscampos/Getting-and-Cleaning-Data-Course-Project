@@ -88,7 +88,7 @@ Number [2] file above (`features_info.txt`) reports that the body linear acceler
 
 It also reports that a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals.
 
-I have elaborated `figure 1` below to better illustrate how all these signals are linked together and how they have produced all the variables mentioned in item 3 (*The Variables*) below.
+I have elaborated `figure 1` below to better illustrate how all these signals are linked together and how they have produced all variables mentioned in item 3 (*The Variables*) below.
 
 Noteworthy on figure 1 is that the signals marked with number three are 3-dimensional while those marked with number one are coming from the calculated magnitude (an one-dimensional number).
 
@@ -161,7 +161,7 @@ Taking into account all that has been seen so far, the files that will be utiliz
       + [27] "train/X_train.txt"
       + [28] "train/y_train.txt"
 
-It is crucial to understand how all this files are connected in order to build the Data Project. 
+In order to build the Data Project it is crucial to understand how all this files are connected. 
 
 
 For this project we are not interested in the Inertial Signals and, hence, we won't be using files number [5] to [13] and [17] to [25]. 
