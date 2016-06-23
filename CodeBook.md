@@ -98,7 +98,7 @@ As we can see, we have thirty-three measures for each activity a volunteer took.
 
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Experience%20Signals.png)
 
-Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are:
+Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are as listed below. Time and Frequency columns indicate which domain variables were calculated from, including if they were in all three directions (3D) or not.
 
 | #  | VARIABLE        | DESCRIPTION                                                                 | TIME   | FREQUENCY
 |:--:|-----------------|-----------------------------------------------------------------------------|:------:|:---------: 
