@@ -102,22 +102,22 @@ Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is 
 
 | #  | VARIABLE        | DESCRIPTION                                                                 | TIME   | FREQUENCY
 |:--:|-----------------|-----------------------------------------------------------------------------|:------:|:---------: 
-| 1  | mean():         | Mean value                                                                  | X (3D) | X (3D)
-| 2  | std():          | Standard deviation                                                          | X (3D) | X (3D)
-| 3  | mad():          | Median absolute deviation                                                   | X (3D) | X (3D)     
-| 4  | max():          | Largest value in array                                                      | X (3D) | X (3D)     
-| 5  | min():          | Smallest value in array                                                     | X (3D) | X (3D)     
-| 6  | sma():          | Signal magnitude area                                                       | X      | X     
-| 7  | energy():       | Energy measure. Sum of the squares divided by the number of values          | X (3D) | X (3D)     
-| 8  | iqr():          | Interquartile range                                                         | X (3D) | X (3D)     
-| 9  | entropy():      | Signal entropy                                                              | X (3D) | X (3D)     
-| 10 | arCoeff():      | Autorregresion coefficients with Burg order equal to 4                      | X (3D - 4 measures for dimension) |
-| 11 | correlation():  | correlation coefficient between two signals                                 | X (not for magnitude signals) |
-| 12 | maxInds():      | index of the frequency component with largest magnitude                     |        | X (3D)
-| 13 | meanFreq():     | Weighted average of the frequency components to obtain a mean frequency     |        | X (3D)
-| 14 | skewness():     | skewness of the frequency domain signal                                     |        | X (3D)
-| 15 | kurtosis():     | kurtosis of the frequency domain signal                                     |        | X (3D)
-| 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window |        | X (3D - 4 measures for dimension, not for magnitude signals)
+| 1  | mean():         | Mean value                                                                  | 3D     | 3D
+| 2  | std():          | Standard deviation                                                          | 3D     | 3D
+| 3  | mad():          | Median absolute deviation                                                   | 3D     | 3D     
+| 4  | max():          | Largest value in array                                                      | 3D     | 3D    
+| 5  | min():          | Smallest value in array                                                     | 3D     | 3D    
+| 6  | sma():          | Signal magnitude area                                                       | 1D     | 1D     
+| 7  | energy():       | Energy measure. Sum of the squares divided by the number of values          | 3D     | 3D     
+| 8  | iqr():          | Interquartile range                                                         | 3D     | 3D     
+| 9  | entropy():      | Signal entropy                                                              | 3D     | 3D     
+| 10 | arCoeff():      | Autorregresion coefficients with Burg order equal to 4                      | 3D (4 measures for dimension) |
+| 11 | correlation():  | correlation coefficient between two signals                                 | 3D (not for magnitude signals) |
+| 12 | maxInds():      | index of the frequency component with largest magnitude                     |        | 3D
+| 13 | meanFreq():     | Weighted average of the frequency components to obtain a mean frequency     |        | 3D
+| 14 | skewness():     | skewness of the frequency domain signal                                     |        | 3D
+| 15 | kurtosis():     | kurtosis of the frequency domain signal                                     |        | 3D
+| 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window |        | 3D (4 measures for dimension, not for magnitude signals)
 | 17 | angle():        | Angle between to vectors                                                    |
 
 With all these information it is possible now determinate how many VARIABLES are expected. For each signal they have calculated 17 variables. As a result we have `33` x `17` = `561` expected variables in our Data Set.
