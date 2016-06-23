@@ -118,7 +118,9 @@ Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is 
 | 14 | skewness():     | skewness of the frequency domain signal                                     |        | 3D
 | 15 | kurtosis():     | kurtosis of the frequency domain signal                                     |        | 3D
 | 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window |        | 3D (4 measures for dimension, not for magnitude signals)
-| 17 | angle():        | Angle between to vectors                                                    |
+| 17 | angle():        | Angle between to vectors                                                    | (*)    | (*) 
+(*) For 07 different pairs of vectors were taken 07 differente angles measures (one for each pair)
+
 
 With all these information it is possible now determinate how many VARIABLES are expected. For each signal they have calculated 17 variables. As a result we have `33` x `17` = `561` expected variables in our Data Set.
 
