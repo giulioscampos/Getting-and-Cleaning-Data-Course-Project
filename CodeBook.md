@@ -143,7 +143,7 @@ By applying `read.table()` R command on the files listed below we get:
 | 5  | [26] "train/subject_train.txt"  | data.frame 7,352 obs. 1 variable  | V1: int 1 to 30 (for each subject/volunteer)
 | 6  | [28] "train/y_train.txt"        | data.frame 7,352 obs. 1 variable  | V1: int 1 to 6 (for each activity)
 
-## 2. What files will we use to write our R script `run_analysis.R`? 
+## 2. What files will we use to write our R script `run_analysis.R` 
 
 Taking into account all that has been seen so far, the files that will be utilized for this Project are?
 
@@ -161,8 +161,13 @@ Taking into account all that has been seen so far, the files that will be utiliz
       + [27] "train/X_train.txt"
       + [28] "train/y_train.txt"
 
+It is crucial to understand how all this files are connected in order to build the Data Project. 
+
+
 For this project we are not interested in the Inertial Signals and, hence, we won't be using files number [5] to [13] and [17] to [25]. 
 
 ## 3. The Variables
+
+
 
 ## 4. Work performed to clean up the data
