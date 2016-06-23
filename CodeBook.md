@@ -175,7 +175,11 @@ By merging X_train and X_test files, we come up with a data set composed by one 
 
 To better illustrate how this `561`variables were defined, I developed the followig table (shown in `Figue 3`), linking all the Signals from Picture 1 aforementioned and set of 17 calculated variables.
 
+`FIGURE 3`
+
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Figure 3.png)
+
+In this Figure are not accounted the `angles()` variables. For experience they measured the angle between seven (07) different pairs of vectors, as shown on `"features.txt"`file.
 
 Our project will focus on extracting only the measurements on the mean and standard deviation for each measurement, highlighted on Figure 3 with a thick red line.
 
