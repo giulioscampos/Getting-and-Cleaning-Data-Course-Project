@@ -100,25 +100,25 @@ As we can see, we have thirty-three measures for each activity a volunteer took.
 
 Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are:
 
-| #  | VARIABLE        | DESCRIPTION
-|:--:|-----------------|----------------------------------------------------------------------------- 
-| 1  | mean():         | Mean value
-| 2  | std():          | Standard deviation
-| 3  | mad():          | Median absolute deviation 
-| 4  | max():          | Largest value in array
-| 5  | min():          | Smallest value in array
-| 6  | sma():          | Signal magnitude area
-| 7  | energy():       | Energy measure. Sum of the squares divided by the number of values. 
-| 8  | iqr():          | Interquartile range 
-| 9  | entropy():      | Signal entropy
-| 10 | arCoeff():      | Autorregresion coefficients with Burg order equal to 4
-| 11 | correlation():  | correlation coefficient between two signals
-| 12 | maxInds():      | index of the frequency component with largest magnitude
-| 13 | meanFreq():     | Weighted average of the frequency components to obtain a mean frequency
-| 14 | skewness():     | skewness of the frequency domain signal 
-| 15 | kurtosis():     | kurtosis of the frequency domain signal 
-| 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window
-| 17 | angle():        | Angle between to vectors.
+| #  | VARIABLE        | DESCRIPTION                                                                 | TIME | FREQUENCY
+|:--:|-----------------|-----------------------------------------------------------------------------|:----:|:---------: 
+| 1  | mean():         | Mean value                                                                  | X    | X
+| 2  | std():          | Standard deviation                                                          | X    | X
+| 3  | mad():          | Median absolute deviation                                                   |      
+| 4  | max():          | Largest value in array                                                      |
+| 5  | min():          | Smallest value in array                                                     |
+| 6  | sma():          | Signal magnitude area                                                       |
+| 7  | energy():       | Energy measure. Sum of the squares divided by the number of values          | 
+| 8  | iqr():          | Interquartile range                                                         |
+| 9  | entropy():      | Signal entropy                                                              |
+| 10 | arCoeff():      | Autorregresion coefficients with Burg order equal to 4                      |
+| 11 | correlation():  | correlation coefficient between two signals                                 | X (not for magn. signals) |
+| 12 | maxInds():      | index of the frequency component with largest magnitude                     |
+| 13 | meanFreq():     | Weighted average of the frequency components to obtain a mean frequency     |
+| 14 | skewness():     | skewness of the frequency domain signal                                     |
+| 15 | kurtosis():     | kurtosis of the frequency domain signal                                     |
+| 16 | bandsEnergy():  | Energy of a frequency interval within the 64 bins of the FFT of each window |
+| 17 | angle():        | Angle between to vectors                                                    |
 
 With all these information it is possible now determinate how many VARIABLES are expected. For each signal they have calculated 17 variables. As a result we have `33` x `17` = `561` expected variables in our Data Set.
 
