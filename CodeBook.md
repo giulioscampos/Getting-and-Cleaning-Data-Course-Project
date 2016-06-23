@@ -92,7 +92,7 @@ I have elaborated `figure 1` below to better illustrate how all these signals ar
 
 Noteworthy on figure 1 is that the signals marked with number three are 3-dimensional while those marked with number one are coming from the calculated magnitude (an one-dimensional number).
 
-As we can see, we have thirty-three measures for each activity a volunteer took.
+As we can see, we have `thirty-three` signals measures for each activity a volunteer took.
 
 `FIGURE 1`
 
@@ -122,7 +122,7 @@ Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is 
 (*) For 07 different pairs of vectors were taken 07 differente angles measures (one for each pair)
 
 
-With all these information it is possible now determinate how many VARIABLES are expected. For each signal they have calculated 17 variables. As a result we have `33` x `17` = `561` expected variables in our Data Set.
+With all these information in hand, it is possible determinate how many VARIABLES are expected in our Data Set. Considering the thity-three signals and the table above, it is expected an array of `561` variables in the Data Set. Figure 2 below, displayed ate item 2 - The Variables, gives more information on the subject.
 
 If we take a closer look at the *General Characteristics* (1.3.2 item above), we can see this number (561) matches with the Number of Attributes. Thus we can assume 561 columns in a Data Frame.
 
