@@ -98,7 +98,7 @@ As we can see, we have `thirty-three` signals measures for each activity a volun
 
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Experience%20Signals.png)
 
-Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are as listed below. Time and Frequency columns indicate which domain variables were calculated from, including if they were in all three directions (3D) or not.
+Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is used to denote 3-axial signals in the X, Y and Z directions and the set of variables that were estimated from these signals are as listed below. Time and Frequency columns indicate which domain the variables were calculated from, including if they were calculated in all three directions (3D) or not.
 
 | #  | VARIABLE        | DESCRIPTION                                                                 | TIME   | FREQUENCY
 |:--:|-----------------|-----------------------------------------------------------------------------|:------:|:---------: 
@@ -122,7 +122,7 @@ Going further on the Data analyses, `features_info.txt` reveals that `'XYZ'` is 
 (*) For 07 different pairs of vectors were taken 07 differente angles measures (one for each pair)
 
 
-With all these information in hand, it is possible determinate how many VARIABLES are expected in our Data Set. Considering the thity-three signals and the table above, it is expected an array of `561` variables in the Data Set. Figure 2 below, displayed ate item 2 - The Variables, gives more information on the subject.
+With all these information in hand, it is possible determinate how many VARIABLES are expected in our Data Set. Considering the thity-three signals and the table above, it is expected an array of `561` variables in the Data Set. Figure 3 below, displayed ate item 2 - The Variables, gives more information on the subject.
 
 If we take a closer look at the *General Characteristics* (1.3.2 item above), we can see this number (561) matches with the Number of Attributes. Thus we can assume 561 columns in a Data Frame.
 
@@ -138,12 +138,30 @@ By applying `read.table()` R command on the files listed below we get:
 |:--:|---------------------------------|-----------------------------------|--------------------------------------------- 
 | 1  | [1] "activity_labels.txt"       | data.frame 6 obs. 2 variables     | V1: int 1 to 6 (for each activity) and V2: factor w/ 6 levels (regarding all activities)
 | 2  | [3] "features.txt"              | 
-| 3  | [14] "test/subject_test.txt"    | 
-| 4  | [16] "test/y_test.txt"          | 
-| 5  | [26] "train/subject_train.txt"  | 
-| 6  | [28] "train/y_train.txt"        | 
+| 3  | [14] "test/subject_test.txt"    | data.frame 2,947 obs. 1 variable  | V1: int 1 to 30 (for each subject/volunteer)
+| 4  | [16] "test/y_test.txt"          | data.frame 2,947 obs. 1 variable  | V1: int 1 to 6 (for each activity)
+| 5  | [26] "train/subject_train.txt"  | data.frame 7,352 obs. 1 variable  | V1: int 1 to 30 (for each subject/volunteer)
+| 6  | [28] "train/y_train.txt"        | data.frame 7,352 obs. 1 variable  | V1: int 1 to 6 (for each activity)
 
 ## 2. What files will we use to write our R script `run_analysis.R`? 
+
+Taking into account all that has been seen so far, the files that will be utilized for this Project are?
+
+* To extract informartion on the Data:
+      + [4] "README.txt"
+      + [2] "features_info.txt"
+
+* To Build our Project Data:
+      + [1] "activity_labels.txt"
+      + [3] "features.txt"
+      + [14] "test/subject_test.txt"
+      + [15] "test/X_test.txt"
+      + [16] "test/y_test.txt"
+      + [26] "train/subject_train.txt"
+      + [27] "train/X_train.txt"
+      + [28] "train/y_train.txt"
+
+For this project we are not interested in the Inertial Signals and, hence, we won't be using files number [5] to [13] and [17] to [25]. 
 
 ## 3. The Variables
 
