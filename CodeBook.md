@@ -177,4 +177,8 @@ To better illustrate how this `561`variables were defined, I developed the follo
 
 ![] (https://github.com/giulioscampos/Getting-and-Cleaning-Data-Course-Project/blob/master/Figure 3.png)
 
+Our project will focus on extracting only the measurements on the mean and standard deviation for each measurement, highlighted on Figure 3 with a thick red line.
+
+Thus, our project will have `66` (mean and std) + `2`(Subject and Activity) = `68 VARIABLES` (columns) for 10,299 observations (rows).
+
 ## 4. Work performed to clean up the data
