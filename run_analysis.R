@@ -10,10 +10,10 @@ if(!file.exists("Downloaded Data")){
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "C:\\Users\\Data Science\\Johns Hopkins\\Curso 3 - Getting and Cleaning data\\Week 4\\Assigment\\Downloaded Data\\UCI HAR Dataset.zip")
 
-## Setting New Working Directory (inside "Downloade Data" folder)
+## Setting New Working Directory (inside "Downloaded Data" folder)
 setwd("C:/Users/Data Science/Johns Hopkins/Curso 3 - Getting and Cleaning data/Week 4/Assigment/Downloaded Data")
 
-## Unziping the downloade data
+## Unziping the downloaded data
 unzip(zipfile = "UCI HAR Dataset.zip")
 
 ## Loading into R all seven files we are using for the project
