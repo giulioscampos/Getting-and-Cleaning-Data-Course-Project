@@ -41,7 +41,7 @@ DataActivity<-merge(DataActivity,ActivityLabels,"V1")
 DataActivity<- rename(DataActivity, Activity = V2)
 DataActivity<-select(DataActivity, Activity)
 
-## Renaming DataSubject Set
+## Renaming DataSubject Set Variables
 DataSubject<-rename(DataSubject, Subject = V1)
 
 ## Setting Data Set Variables Names using FeatureNames
