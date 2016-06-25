@@ -1,7 +1,7 @@
 ## Setting Working Directory:
 setwd("C:/Users/Data Science/Johns Hopkins/Curso 3 - Getting and Cleaning data/Week 4/Assigment")
 
-## Checking if folder "Downloaded Data" existis. If not, creates the folder:
+## Checking if folder "Downloaded Data" exists. If not, creates the folder:
 if(!file.exists("Downloaded Data")){
         dir.create("Downloaded Data")
 }
