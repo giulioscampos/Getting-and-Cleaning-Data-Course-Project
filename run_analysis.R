@@ -44,13 +44,19 @@ DataActivity<-select(DataActivity, Activity)
 ## Renaming DataSubject Set
 DataSubject<-rename(DataSubject, Subject = V1)
 
-
+## Setting Data Set Variables Names using FeatureNames
 DataColNames<-as.character(FeatureNames$V2)
 Data<-`colnames<-`(Data,DataColNames)
+
+## Merging DataActivity, DataSubject and Data to create one Data Set
 DataSubAct<-cbind(DataSubject,DataActivity)
 DataTotal<-cbind(DataSubAct,Data)
+
+## Extracting only the measurements on the mean and standard deviation for each measurement
 SelectedCol<-as.character(FeatureNames$V2[grep("mean\\(\\)|std\\(\\)",FeatureNames$V2)])
 DataTotalSub<-DataTotal[c("Activity","Subject",SelectedCol)]
+
+## Creating a second, independent tidy data set with the average of each variable for each activity and each subject
 TidyData<-aggregate(. ~Subject + Activity, DataTotalSub, mean)
 TidyData<-arrange(TidyData, Subject, Activity)
 View(DataTotalSub)
