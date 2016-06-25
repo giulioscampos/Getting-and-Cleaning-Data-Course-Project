@@ -3,7 +3,7 @@ The purpose of this file is to describe the variables, the data, and any transfo
 
 In order to do so, it is mandatory understand every aspect of the Data being analysed, as shown below at *"Understanding the Data"* part. 
 
-Worth noting that, although the performed transformations/works to clean up the data are described on the `run_analysis.R` file, they are shown in this file as well. 
+Worth noting that, although the performed transformations/works to clean up the data are well described on the `run_analysis.R` file. 
 
 ## 1. Understanding the Data
 
@@ -137,7 +137,7 @@ By applying `read.table()` R command on the files listed below we get:
 | #  | FILE                            | PROPRIETIES                       | OBS
 |:--:|---------------------------------|-----------------------------------|--------------------------------------------- 
 | 1  | [1] "activity_labels.txt"       | data.frame 6 obs. 2 variables     | V1: int 1 to 6 (for each activity) and V2: factor w/ 6 levels (regarding all activities)
-| 2  | [3] "features.txt"              | 
+| 2  | [3] "features.txt"              | data.frame 561 obs. 2 variables   | V1: 1 to 561 (for each variable) and V2: factor w/ 477 levels (regarding variables names)
 | 3  | [14] "test/subject_test.txt"    | data.frame 2,947 obs. 1 variable  | V1: int 1 to 30 (for each subject/volunteer)
 | 4  | [16] "test/y_test.txt"          | data.frame 2,947 obs. 1 variable  | V1: int 1 to 6 (for each activity)
 | 5  | [26] "train/subject_train.txt"  | data.frame 7,352 obs. 1 variable  | V1: int 1 to 30 (for each subject/volunteer)
@@ -184,5 +184,3 @@ In this Figure are not accounted the `angles()` variables. For experience they m
 Our project will focus on extracting only the measurements on the mean and standard deviation for each measurement, highlighted on Figure 3 with a thick red line.
 
 Thus, our project will have `66` (mean and std) + `2`(Subject and Activity) = `68 VARIABLES` (columns) for 10,299 observations (rows).
-
-## 4. Work performed to clean up the data
