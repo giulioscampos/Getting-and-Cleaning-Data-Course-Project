@@ -36,3 +36,22 @@ A full description is available at the site where the data was obtained:
 
 *Part of the Code Book file (`CodeBook.md`) is dedicated to understand the Project's Data* 
 
+## How does `run_analysis.R`work?
+
+The following steps explain how our script works. They are also displayed inside the script.
+
+Step 1) Sets Working Directory
+Step 2) Checks if folder "Downloaded Data" exists. If not, creates the folder:
+Step 3) Downloads data for the project into "Downloaded Data" folder
+Step 4) Sets New Working Directory (inside "Downloaded Data" folder)
+Step 5) Unzips the downloaded data
+Step 6) Loads into R all seven files we are using for the project
+Step 6) Merges the training and the test sets
+Step 7) Loads DPLYR package
+Step 8) Inserts Activity Labels at DataActivity Set
+Step 9) Renames V2 variable and Excluding V1 variable from DataActivity Set
+Step 10) Renames DataSubject Set variables
+Step 11) Sets Data Set variables names using FeatureNames
+Step12) Merges DataActivity, DataSubject and Data to create one Data Set
+Step13) Extracts only the measurements on the mean and standard deviation for each measurement
+Step14)  Creats a second, independent tidy data set with the average of each variable for each activity and each subject
