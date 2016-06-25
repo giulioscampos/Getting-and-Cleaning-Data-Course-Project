@@ -1,3 +1,4 @@
+## Set Work Directory ():
 setwd("C:/Giulio/Data Science/Johns Hopkins/Curso 3 - Getting and Cleaning data/Week 4/Assigment")
 if(!file.exists("Downloaded Data")){
         dir.create("Downloaded Data")
